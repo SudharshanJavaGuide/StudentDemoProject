@@ -11,6 +11,9 @@ public class Student {
 		this.studentName=studentname;
 		this.studentAddr=studentAddr;
 	}
+	public static void welcomeMessage(String name) {
+		System.out.println("Welcome To Incedo :"+name);
+	}
 	public void displayStudentInfo(Student s) {
 		System.out.println(s);
 	}
