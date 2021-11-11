@@ -12,6 +12,7 @@ public class Student {
 		this.studentAddr=studentAddr;
 	}
 	public static void main(String[] args) {
-		
+		Student s1=new Student(1001,"Sudharshan","Kadapa");
+		Student s2=new Student(1002,"Indra","Chittoor");
 	}
 }
