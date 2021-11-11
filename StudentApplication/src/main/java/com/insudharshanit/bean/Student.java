@@ -11,4 +11,7 @@ public class Student {
 		this.studentName=studentname;
 		this.studentAddr=studentAddr;
 	}
+	public static void main(String[] args) {
+		
+	}
 }
